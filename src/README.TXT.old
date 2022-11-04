@@ -1,0 +1,34 @@
+------------------------------------------------------------------------
+Projekt HadaniSlov2
+------------------------------------------------------------------------
+
+Copyright (c) Lubos Pavlicek, 2004
+              VSE Praha
+
+Tento projekt je urcen pro uvodni kurs objektoveho programovaciho jazyka Java s
+vyuzitim prostredi BlueJ.
+
+Projekt obsahuje jednoduchou aplikaci pro hadani slova. Ke spusteni je potreba
+vytvorit instanci tridy HadaniSlov a nad instancí zavolat metodu show() pro zobrazeni
+okna na obrazovce.
+
+Projekt navazuje na projekt HadaniSlov1, cilem tohoto rozsireni je vylepsit puvodni
+aplikaci nasledovne:
+- pouzit pole pro ulozeni vetsiho poctu hledanych slov (instanci tridy HledaneSlovo),
+- vylepsit rozpoznavani hadanych pismen ve slove tak, aby se ignoroval rozdil malych
+  a velkych pismen a aby u samohlasek nezaviselo na hackach, carkach a dalsich 
+  nabodenickach,
+- pri kazdem spusteni nabizet slova k hadani v nahodnem poradi s vyuzitim tridy
+  java.util.Random,
+  
+Postacuje delat upravy ve tridach PoskytovatelSlov a HledaneSlovo, pro reseni ukolu neni potreba
+upravovat tridy HadaniSlov a GrafikaHadani.
+
+Tento projekt ma v ramci vyuky objektoveho programovani nasledujici cile:
+- pouzivani poli pro ulozeni instanci trid,
+- prevod retezce na pole znaku a praci s timto polem znaku,
+- cykly for, popr. while
+- pouzivani dokumentace knihoven javy pro zjisteni udaju o tride java.util.Random
+  a pro vyber vhodnych metod k pouziti v aplikaci (tj. orientace ve standardni dokumentaci),
+
+Lubos Pavlicek
